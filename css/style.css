@@ -297,6 +297,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .form-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 5px;
   padding: 20px;
   border-bottom: 1px dotted rgb(192, 192, 192);
 }
