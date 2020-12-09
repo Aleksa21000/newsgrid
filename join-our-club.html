@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>NewsGrid | Latest News</title>
+</head>
+<body>
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="NewsGrid" class="logo">
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="article">
+    <div class="container">
+      <div class="page-container">
+        <form name="contact" method="POST" data-netlify="true" class="club-form bg-light">
+          <h2 class="l-heading">Here you can Join</h2>
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="form-control">
+            <label for="Password">Password</label>
+            <input type="password" name="password" id="password" placeholder="**********">
+          </div>
+          <div class="form-control">
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="male">Other</option>
+            </select>
+          </div>
+          <div class="form-control form-control-1">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="1"></textarea>
+          </div>
+          <input type="submit" value="Submit" class="btn btn-dark p-1">
+        </form>
+
+        <aside id="categories" class="card">
+          <h2>Categories</h2>
+          <ul class="list">
+            <li><a href="sport.html"><i class="fas fa-chevron-right"></i> Sports</a></li>
+            <li><a href="entertainment.html"><i class="fas fa-chevron-right"></i> Entertainment</a></li>
+            <li><a href="technology.html"><i class="fas fa-chevron-right"></i> Technology</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Fashion</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Shopping</a></li>
+          </ul>
+        </aside>
+
+        <aside id="categories" class="card bg-primary">
+          <h2>Club Benefits</h2>
+          <ul>
+            <li> <i class="fas fa-chevron-right"></i>  Be the First to get notification's with latest News before all</li>
+            <li> <i class="fas fa-chevron-right"></i>  Lorem, ipsum dolor.</li>
+            <li> <i class="fas fa-chevron-right"></i>  Lorem ipsum dolor sit amet.</li>
+            <li> <i class="fas fa-chevron-right"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="NewsGrid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vel maxime perferendis ipsam consequatur non aperiam, voluptatum sit error dignissimos.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="email" name="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="help&support.html">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="join-our-club.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nisi.</p>
+        <a href="join-our-club.html" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright &copy; 2020, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
